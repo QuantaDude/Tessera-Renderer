@@ -1,0 +1,98 @@
+# Language
+Language: Cpp
+Standard: c++20
+
+# Base style
+BasedOnStyle: LLVM
+
+# Indentation
+IndentWidth: 2
+TabWidth: 2
+UseTab: Never
+ContinuationIndentWidth: 4
+
+# Braces
+BreakBeforeBraces: Attach
+BraceWrapping:
+  AfterClass: false
+  AfterControlStatement: false
+  AfterEnum: false
+  AfterFunction: false
+  AfterNamespace: false
+  AfterStruct: false
+  AfterUnion: false
+  BeforeElse: false
+  IndentBraces: false
+
+# Short statements
+AllowShortFunctionsOnASingleLine: Inline
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLoopsOnASingleLine: false
+AllowShortBlocksOnASingleLine: Never
+
+# Line length
+ColumnLimit: 100
+
+# Function formatting
+AlwaysBreakAfterReturnType: None
+AlwaysBreakTemplateDeclarations: Yes
+BinPackParameters: false
+BinPackArguments: false
+
+# Alignment
+AlignAfterOpenBracket: Align
+AlignOperands: true
+AlignConsecutiveAssignments: true
+AlignConsecutiveDeclarations: true
+AlignTrailingComments: true
+
+# Pointer / reference style
+PointerAlignment: Left
+ReferenceAlignment: Left
+
+# Spacing
+SpaceBeforeParens: ControlStatements
+SpacesInAngles: false
+SpacesInParentheses: false
+SpaceInEmptyBlock: false
+SpaceBeforeAssignmentOperators: true
+
+# Includes
+SortIncludes: true
+IncludeBlocks: Regroup
+
+# Macros
+IndentPPDirectives: AfterHash
+MacroBlockBegin: ""
+MacroBlockEnd: ""
+
+# Switch statements
+IndentCaseLabels: true
+AllowShortCaseLabelsOnASingleLine: false
+
+# Comments
+ReflowComments: true
+CommentPragmas: "^ IWYU pragma:"
+
+# Constructor initializer lists
+BreakConstructorInitializers: AfterColon
+ConstructorInitializerIndentWidth: 4
+
+# Lambdas
+LambdaBodyIndentation: Signature
+
+# Namespace formatting
+NamespaceIndentation: None
+CompactNamespaces: false
+
+# Empty lines
+KeepEmptyLinesAtTheStartOfBlocks: false
+MaxEmptyLinesToKeep: 2
+
+# Preprocessor conditionals
+# IndentPPDirectives: AfterHash
+
+# Modern C++ preferences
+DeriveLineEnding: true
+DerivePointerAlignment: false
+
